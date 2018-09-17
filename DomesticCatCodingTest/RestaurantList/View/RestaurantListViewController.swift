@@ -22,6 +22,7 @@ class RestaurantListViewController: UITableViewController {
       registerCell()
       viewModel = RestaurantListViewModel()
       configureViewModel()
+      tableView.tableFooterView = UIView()
    }
    
    override func viewWillAppear(_ animated: Bool) {
