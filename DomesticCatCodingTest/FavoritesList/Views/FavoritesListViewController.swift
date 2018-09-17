@@ -15,6 +15,7 @@ class FavoritesListViewController: UITableViewController {
       viewModel = FavoritesListViewModel()
       registerCell()
       configureViewModel()
+      tableView.tableFooterView = UIView()
    }
    
    override func viewWillAppear(_ animated: Bool) {
