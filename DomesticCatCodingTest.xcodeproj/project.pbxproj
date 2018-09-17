@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22522FB80F8900A4199510D8 /* Pods_DomesticCatCodingTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FD6231876413B2938F7073 /* Pods_DomesticCatCodingTestTests.framework */; };
+		75E9185616CC9BD9B233A44B /* Pods_DomesticCatCodingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63027267F6B18F8F041D4353 /* Pods_DomesticCatCodingTest.framework */; };
+		EE7071F2214F70C400E10A5E /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7071F1214F70C400E10A5E /* RestaurantTableViewCell.swift */; };
+		EE7071F5214F7BE300E10A5E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7071F4214F7BE300E10A5E /* Constants.swift */; };
+		EE7071F7214F8D7A00E10A5E /* RestaurantDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7071F6214F8D7A00E10A5E /* RestaurantDataManager.swift */; };
+		EE7071F9214F9A4600E10A5E /* StateBasedViewModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7071F8214F9A4600E10A5E /* StateBasedViewModeling.swift */; };
+		EE7071FC214F9D5D00E10A5E /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7071FA214F9D5D00E10A5E /* RestaurantCell.swift */; };
+		EE7071FD214F9D5D00E10A5E /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7071FB214F9D5D00E10A5E /* RestaurantCell.xib */; };
+		EE707200214FA6A500E10A5E /* RestaurantList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7071FF214FA6A500E10A5E /* RestaurantList.storyboard */; };
+		EE707204214FB78C00E10A5E /* FavoritesList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE707203214FB78C00E10A5E /* FavoritesList.storyboard */; };
+		EE707208214FB7E300E10A5E /* FavoritesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE707207214FB7E300E10A5E /* FavoritesListViewModel.swift */; };
+		EE70720A214FB7F600E10A5E /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE707209214FB7F600E10A5E /* FavoritesListViewController.swift */; };
+		EE70720E214FC28600E10A5E /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE70720D214FC28600E10A5E /* UIImage+Extensions.swift */; };
 		EEA2A58B214F407F00BD5FE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2A58A214F407F00BD5FE1 /* AppDelegate.swift */; };
-		EEA2A58D214F407F00BD5FE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2A58C214F407F00BD5FE1 /* ViewController.swift */; };
 		EEA2A590214F407F00BD5FE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA2A58E214F407F00BD5FE1 /* Main.storyboard */; };
 		EEA2A592214F408200BD5FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA2A591214F408200BD5FE1 /* Assets.xcassets */; };
 		EEA2A595214F408200BD5FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA2A593214F408200BD5FE1 /* LaunchScreen.storyboard */; };
 		EEA2A5A0214F408300BD5FE1 /* DomesticCatCodingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2A59F214F408300BD5FE1 /* DomesticCatCodingTestTests.swift */; };
+		EEA2A5AE214F4ADC00BD5FE1 /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2A5AD214F4ADC00BD5FE1 /* RestaurantListViewController.swift */; };
+		EEA2A5B0214F4AEE00BD5FE1 /* RestaurantListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2A5AF214F4AEE00BD5FE1 /* RestaurantListViewModel.swift */; };
+		EEA2A5B3214F4B3800BD5FE1 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA2A5B2214F4B3800BD5FE1 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +41,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029C0C9255823FCF74718625 /* Pods-DomesticCatCodingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomesticCatCodingTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DomesticCatCodingTest/Pods-DomesticCatCodingTest.release.xcconfig"; sourceTree = "<group>"; };
+		39FD6231876413B2938F7073 /* Pods_DomesticCatCodingTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DomesticCatCodingTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63027267F6B18F8F041D4353 /* Pods_DomesticCatCodingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DomesticCatCodingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72868DF83C159612619691C7 /* Pods-DomesticCatCodingTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomesticCatCodingTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DomesticCatCodingTestTests/Pods-DomesticCatCodingTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		894DFEDCE532EA797C0E403B /* Pods-DomesticCatCodingTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomesticCatCodingTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DomesticCatCodingTestTests/Pods-DomesticCatCodingTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8E0A270CD435C324137A9F3 /* Pods-DomesticCatCodingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomesticCatCodingTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DomesticCatCodingTest/Pods-DomesticCatCodingTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EE7071F1214F70C400E10A5E /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		EE7071F4214F7BE300E10A5E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EE7071F6214F8D7A00E10A5E /* RestaurantDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDataManager.swift; sourceTree = "<group>"; };
+		EE7071F8214F9A4600E10A5E /* StateBasedViewModeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBasedViewModeling.swift; sourceTree = "<group>"; };
+		EE7071FA214F9D5D00E10A5E /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		EE7071FB214F9D5D00E10A5E /* RestaurantCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantCell.xib; sourceTree = "<group>"; };
+		EE7071FF214FA6A500E10A5E /* RestaurantList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RestaurantList.storyboard; sourceTree = "<group>"; };
+		EE707203214FB78C00E10A5E /* FavoritesList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FavoritesList.storyboard; sourceTree = "<group>"; };
+		EE707207214FB7E300E10A5E /* FavoritesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewModel.swift; sourceTree = "<group>"; };
+		EE707209214FB7F600E10A5E /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
+		EE70720D214FC28600E10A5E /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		EEA2A587214F407F00BD5FE1 /* DomesticCatCodingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomesticCatCodingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA2A58A214F407F00BD5FE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEA2A58C214F407F00BD5FE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EEA2A58F214F407F00BD5FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEA2A591214F408200BD5FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEA2A594214F408200BD5FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +67,9 @@
 		EEA2A59B214F408300BD5FE1 /* DomesticCatCodingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomesticCatCodingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA2A59F214F408300BD5FE1 /* DomesticCatCodingTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomesticCatCodingTestTests.swift; sourceTree = "<group>"; };
 		EEA2A5A1214F408300BD5FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA2A5AD214F4ADC00BD5FE1 /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
+		EEA2A5AF214F4AEE00BD5FE1 /* RestaurantListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewModel.swift; sourceTree = "<group>"; };
+		EEA2A5B2214F4B3800BD5FE1 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E9185616CC9BD9B233A44B /* Pods_DomesticCatCodingTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +85,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22522FB80F8900A4199510D8 /* Pods_DomesticCatCodingTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6867358B7E1400D557E2897 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8E0A270CD435C324137A9F3 /* Pods-DomesticCatCodingTest.debug.xcconfig */,
+				029C0C9255823FCF74718625 /* Pods-DomesticCatCodingTest.release.xcconfig */,
+				72868DF83C159612619691C7 /* Pods-DomesticCatCodingTestTests.debug.xcconfig */,
+				894DFEDCE532EA797C0E403B /* Pods-DomesticCatCodingTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C98511196DED7F8E12DEFEAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63027267F6B18F8F041D4353 /* Pods_DomesticCatCodingTest.framework */,
+				39FD6231876413B2938F7073 /* Pods_DomesticCatCodingTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE7071F3214F7BD800E10A5E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EE7071F4214F7BE300E10A5E /* Constants.swift */,
+				EE7071F8214F9A4600E10A5E /* StateBasedViewModeling.swift */,
+				EE70720D214FC28600E10A5E /* UIImage+Extensions.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EE7071FE214FA69700E10A5E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EE7071FF214FA6A500E10A5E /* RestaurantList.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EE707201214FB77400E10A5E /* FavoritesList */ = {
+			isa = PBXGroup;
+			children = (
+				EE707206214FB7D400E10A5E /* ViewModels */,
+				EE707205214FB7CF00E10A5E /* Views */,
+				EE707202214FB77D00E10A5E /* Storyboard */,
+			);
+			path = FavoritesList;
+			sourceTree = "<group>";
+		};
+		EE707202214FB77D00E10A5E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EE707203214FB78C00E10A5E /* FavoritesList.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EE707205214FB7CF00E10A5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE707209214FB7F600E10A5E /* FavoritesListViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE707206214FB7D400E10A5E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EE707207214FB7E300E10A5E /* FavoritesListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		EEA2A57E214F407F00BD5FE1 = {
 			isa = PBXGroup;
 			children = (
 				EEA2A589214F407F00BD5FE1 /* DomesticCatCodingTest */,
 				EEA2A59E214F408300BD5FE1 /* DomesticCatCodingTestTests */,
 				EEA2A588214F407F00BD5FE1 /* Products */,
+				C6867358B7E1400D557E2897 /* Pods */,
+				C98511196DED7F8E12DEFEAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +187,10 @@
 		EEA2A589214F407F00BD5FE1 /* DomesticCatCodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				EE707201214FB77400E10A5E /* FavoritesList */,
+				EE7071F3214F7BD800E10A5E /* Shared */,
+				EEA2A5AA214F4A8700BD5FE1 /* RestaurantList */,
 				EEA2A58A214F407F00BD5FE1 /* AppDelegate.swift */,
-				EEA2A58C214F407F00BD5FE1 /* ViewController.swift */,
 				EEA2A58E214F407F00BD5FE1 /* Main.storyboard */,
 				EEA2A591214F408200BD5FE1 /* Assets.xcassets */,
 				EEA2A593214F408200BD5FE1 /* LaunchScreen.storyboard */,
@@ -96,6 +208,45 @@
 			path = DomesticCatCodingTestTests;
 			sourceTree = "<group>";
 		};
+		EEA2A5AA214F4A8700BD5FE1 /* RestaurantList */ = {
+			isa = PBXGroup;
+			children = (
+				EE7071FE214FA69700E10A5E /* Storyboard */,
+				EEA2A5B1214F4B2E00BD5FE1 /* Model */,
+				EEA2A5AC214F4A9B00BD5FE1 /* ViewModel */,
+				EEA2A5AB214F4A9500BD5FE1 /* View */,
+			);
+			path = RestaurantList;
+			sourceTree = "<group>";
+		};
+		EEA2A5AB214F4A9500BD5FE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2A5AD214F4ADC00BD5FE1 /* RestaurantListViewController.swift */,
+				EE7071F1214F70C400E10A5E /* RestaurantTableViewCell.swift */,
+				EE7071FA214F9D5D00E10A5E /* RestaurantCell.swift */,
+				EE7071FB214F9D5D00E10A5E /* RestaurantCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEA2A5AC214F4A9B00BD5FE1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2A5AF214F4AEE00BD5FE1 /* RestaurantListViewModel.swift */,
+				EE7071F6214F8D7A00E10A5E /* RestaurantDataManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EEA2A5B1214F4B2E00BD5FE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEA2A5B2214F4B3800BD5FE1 /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEA2A5A4214F408300BD5FE1 /* Build configuration list for PBXNativeTarget "DomesticCatCodingTest" */;
 			buildPhases = (
+				B48E48FCD731F9121CB78072 /* [CP] Check Pods Manifest.lock */,
 				EEA2A583214F407F00BD5FE1 /* Sources */,
 				EEA2A584214F407F00BD5FE1 /* Frameworks */,
 				EEA2A585214F407F00BD5FE1 /* Resources */,
+				7C61E9CB5C82B692BA9122A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEA2A5A7214F408300BD5FE1 /* Build configuration list for PBXNativeTarget "DomesticCatCodingTestTests" */;
 			buildPhases = (
+				CA1165F3F596C92F5CE042D4 /* [CP] Check Pods Manifest.lock */,
 				EEA2A597214F408300BD5FE1 /* Sources */,
 				EEA2A598214F408300BD5FE1 /* Frameworks */,
 				EEA2A599214F408300BD5FE1 /* Resources */,
@@ -177,9 +331,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE707204214FB78C00E10A5E /* FavoritesList.storyboard in Resources */,
+				EE7071FD214F9D5D00E10A5E /* RestaurantCell.xib in Resources */,
 				EEA2A595214F408200BD5FE1 /* LaunchScreen.storyboard in Resources */,
 				EEA2A592214F408200BD5FE1 /* Assets.xcassets in Resources */,
 				EEA2A590214F407F00BD5FE1 /* Main.storyboard in Resources */,
+				EE707200214FA6A500E10A5E /* RestaurantList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +349,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C61E9CB5C82B692BA9122A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DomesticCatCodingTest/Pods-DomesticCatCodingTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DomesticCatCodingTest/Pods-DomesticCatCodingTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B48E48FCD731F9121CB78072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DomesticCatCodingTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA1165F3F596C92F5CE042D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DomesticCatCodingTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EEA2A583214F407F00BD5FE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA2A58D214F407F00BD5FE1 /* ViewController.swift in Sources */,
+				EE7071FC214F9D5D00E10A5E /* RestaurantCell.swift in Sources */,
+				EE7071F7214F8D7A00E10A5E /* RestaurantDataManager.swift in Sources */,
+				EE707208214FB7E300E10A5E /* FavoritesListViewModel.swift in Sources */,
+				EE70720A214FB7F600E10A5E /* FavoritesListViewController.swift in Sources */,
+				EE7071F9214F9A4600E10A5E /* StateBasedViewModeling.swift in Sources */,
+				EE7071F2214F70C400E10A5E /* RestaurantTableViewCell.swift in Sources */,
+				EEA2A5B3214F4B3800BD5FE1 /* Restaurant.swift in Sources */,
 				EEA2A58B214F407F00BD5FE1 /* AppDelegate.swift in Sources */,
+				EEA2A5B0214F4AEE00BD5FE1 /* RestaurantListViewModel.swift in Sources */,
+				EE70720E214FC28600E10A5E /* UIImage+Extensions.swift in Sources */,
+				EEA2A5AE214F4ADC00BD5FE1 /* RestaurantListViewController.swift in Sources */,
+				EE7071F5214F7BE300E10A5E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,11 +588,13 @@
 		};
 		EEA2A5A5214F408300BD5FE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E0A270CD435C324137A9F3 /* Pods-DomesticCatCodingTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QC3P87JJ6;
 				INFOPLIST_FILE = DomesticCatCodingTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,11 +608,13 @@
 		};
 		EEA2A5A6214F408300BD5FE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029C0C9255823FCF74718625 /* Pods-DomesticCatCodingTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QC3P87JJ6;
 				INFOPLIST_FILE = DomesticCatCodingTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,12 +628,14 @@
 		};
 		EEA2A5A8214F408300BD5FE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72868DF83C159612619691C7 /* Pods-DomesticCatCodingTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QC3P87JJ6;
 				INFOPLIST_FILE = DomesticCatCodingTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,12 +651,14 @@
 		};
 		EEA2A5A9214F408300BD5FE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894DFEDCE532EA797C0E403B /* Pods-DomesticCatCodingTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QC3P87JJ6;
 				INFOPLIST_FILE = DomesticCatCodingTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

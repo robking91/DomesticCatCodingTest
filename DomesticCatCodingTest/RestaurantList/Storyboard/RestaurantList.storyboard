@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vJY-Mb-hrO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Abbotsford-->
+        <scene sceneID="Gdh-DB-veN">
+            <objects>
+                <tableViewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="6qm-gx-vKO" customClass="RestaurantListViewController" customModule="DomesticCatCodingTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" id="Btb-uI-ehE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <connections>
+                            <outlet property="dataSource" destination="6qm-gx-vKO" id="meZ-TW-SuB"/>
+                            <outlet property="delegate" destination="6qm-gx-vKO" id="L8S-tC-Esd"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Abbotsford" id="jeu-F6-In9"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fV2-Qa-bc9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2842.4000000000001" y="31.934032983508249"/>
+        </scene>
+        <!--Restaurants-->
+        <scene sceneID="G7D-9f-GC9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vJY-Mb-hrO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Restaurants" image="restaurant" id="S2X-0b-Fcw"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UXh-AX-cRt">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6qm-gx-vKO" kind="relationship" relationship="rootViewController" id="39Y-MN-9pU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="96E-xJ-LsE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1903.2" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="restaurant" width="24" height="24"/>
+    </resources>
+</document>
